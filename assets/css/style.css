@@ -859,6 +859,8 @@ section {
 #video-carousel {
   display: flex;
   overflow: hidden;
+  width: 560;
+  height: 315;
 }
 
 .video-slide {
@@ -883,8 +885,9 @@ section {
 
 /* Media Query for Mobile */
 @media only screen and (max-width: 767px) {
-  #video-carousel {
+  #video-carousel .video-slide {
     flex-direction: column;
+    height: auto;
   }
 
   #prev-button,

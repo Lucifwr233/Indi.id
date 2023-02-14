@@ -37,7 +37,7 @@ function prevSlide() {
 
 document.getElementById("next-button").addEventListener("click", nextSlide);
 document.getElementById("prev-button").addEventListener("click", prevSlide);
-setInterval(nextSlide, 5000);
+// setInterval(nextSlide, 5000);
 //end of video slide
 
 (function () {
