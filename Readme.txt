@@ -1,1 +1,1 @@
-INI.id web project
+indi.id web project
